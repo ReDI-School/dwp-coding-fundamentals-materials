@@ -11,3 +11,10 @@ This repository serves as a homework repository for the Digital Women Program - 
 The repository is organized into modules, each containing exercises tailored to specific topics. These exercises are designed to challenge students and enhance their problem-solving skills. Teachers can select exercises based on the course progression and student needs.
 
 Explore the exercises, utilize the resources, and contribute to the repository to support the learning community. Happy teaching and learning!
+
+## How to contribute
+- Clone this repo, e.g.: `git clone git@github.com:ReDI-School/dwp-coding-fundamentals-materials.git`
+- Go to `/exercises` directory
+- Add the exercises under the choosen theme file, e.g.: `conditionals.py`
+- Create a solutions' file for the exercises you contributed, e.g.: `conditionals_solutions.py`
+- Commit and push into `main` branch
