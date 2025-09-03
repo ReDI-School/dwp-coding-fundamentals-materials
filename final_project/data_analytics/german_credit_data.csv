@@ -1,4 +1,4 @@
-,Age,Sex,Job,Housing,Saving accounts,Checking account,Credit amount,Duration,Purpose
+Index,Age,Gender,Job,Housing,Saving accounts,Checking account,Credit amount,Duration,Purpose
 0,67,male,2,own,NA,little,1169,6,radio/TV
 1,22,female,2,own,little,moderate,5951,48,radio/TV
 2,49,male,1,own,little,NA,2096,12,education
@@ -8,7 +8,7 @@
 6,53,male,2,own,quite rich,NA,2835,24,furniture/equipment
 7,35,male,3,rent,little,moderate,6948,36,car
 8,61,male,1,own,rich,NA,3059,12,radio/TV
-9,28,male,3,own,little,moderate,5234,30,car
+9,28,NA,3,own,little,moderate,5234,30,car
 10,25,female,2,rent,little,moderate,1295,12,car
 11,24,female,2,rent,little,little,4308,48,business
 12,22,female,2,own,little,moderate,1567,12,radio/TV
@@ -33,7 +33,7 @@
 31,27,male,2,own,little,little,4020,24,furniture/equipment
 32,30,male,2,own,moderate,moderate,5866,18,car
 33,57,male,1,rent,NA,NA,1264,12,business
-34,33,female,3,own,little,rich,1474,12,furniture/equipment
+34,33,NA,3,own,little,rich,1474,12,furniture/equipment
 35,25,male,1,own,little,moderate,4746,45,radio/TV
 36,31,male,2,free,little,NA,6110,48,education
 37,37,male,2,own,little,rich,2100,18,radio/TV
@@ -74,7 +74,7 @@
 72,51,male,3,free,little,little,1164,8,vacation/others
 73,41,female,1,own,little,moderate,5954,42,business
 74,40,male,3,own,NA,little,1977,36,education
-75,66,male,3,free,little,little,1526,12,car
+75,66,NA,3,free,little,little,1526,12,car
 76,34,male,2,own,little,little,3965,42,radio/TV
 77,51,male,2,own,little,moderate,4771,11,radio/TV
 78,39,male,1,own,NA,NA,9436,54,car
@@ -116,7 +116,7 @@
 114,35,male,2,own,quite rich,little,1680,12,radio/TV
 115,47,male,2,own,NA,NA,3578,48,radio/TV
 116,30,female,3,own,NA,little,7174,42,radio/TV
-117,27,female,2,rent,NA,little,2132,10,furniture/equipment
+117,27,NA,2,rent,NA,little,2132,10,furniture/equipment
 118,23,female,2,own,quite rich,little,4281,33,furniture/equipment
 119,36,male,3,own,quite rich,moderate,2366,12,car
 120,25,female,2,own,little,little,1835,21,radio/TV
@@ -163,7 +163,7 @@
 161,30,female,2,own,little,NA,1055,18,car
 162,36,male,2,own,quite rich,NA,1262,15,domestic appliances
 163,70,male,3,free,little,moderate,7308,10,car
-164,36,male,2,own,quite rich,NA,909,36,car
+164,36,NA,2,own,quite rich,NA,909,36,car
 165,32,male,2,own,quite rich,NA,2978,6,furniture/equipment
 166,33,female,2,own,little,little,1131,18,furniture/equipment
 167,20,female,2,own,rich,moderate,1577,11,furniture/equipment
@@ -218,7 +218,7 @@
 216,31,male,2,own,little,little,3104,18,business
 217,23,male,2,own,little,rich,3913,36,radio/TV
 218,24,male,1,rent,little,little,3021,24,furniture/equipment
-219,64,female,2,own,little,NA,1364,10,car
+219,64,NA,2,own,little,NA,1364,10,car
 220,26,male,1,own,little,moderate,625,12,radio/TV
 221,23,female,2,rent,NA,little,1200,12,education
 222,30,male,2,own,little,NA,707,12,radio/TV
@@ -265,7 +265,7 @@
 263,57,female,1,free,little,NA,2748,12,education
 264,32,male,1,own,little,NA,1231,10,car
 265,37,male,2,own,little,moderate,802,15,radio/TV
-266,36,male,2,own,NA,NA,6304,36,business
+266,36,NA,2,own,NA,NA,6304,36,business
 267,38,female,2,own,little,NA,1533,24,radio/TV
 268,45,male,3,own,little,little,8978,14,car
 269,25,male,2,own,NA,NA,999,24,radio/TV
@@ -297,7 +297,7 @@
 295,26,female,2,own,little,moderate,9960,48,furniture/equipment
 296,20,female,2,rent,NA,NA,4675,12,car
 297,45,male,1,own,NA,NA,1287,10,car
-298,43,male,2,own,little,NA,2515,18,furniture/equipment
+298,43,NA,2,own,little,NA,2515,18,furniture/equipment
 299,32,male,2,own,rich,moderate,2745,21,furniture/equipment
 300,54,female,0,own,little,NA,672,6,car
 301,42,female,2,own,little,moderate,3804,36,radio/TV
@@ -362,7 +362,7 @@
 360,61,male,2,free,NA,moderate,1239,18,education
 361,37,male,3,own,NA,rich,3399,12,radio/TV
 362,36,female,2,own,little,rich,2247,12,car
-363,21,male,2,rent,little,NA,1766,6,furniture/equipment
+363,21,NA,2,rent,little,NA,1766,6,furniture/equipment
 364,25,male,0,own,little,little,2473,18,furniture/equipment
 365,36,male,2,own,little,NA,1542,12,business
 366,27,male,2,own,little,NA,3850,18,car
@@ -449,7 +449,7 @@
 447,35,male,2,own,little,moderate,2576,7,radio/TV
 448,55,female,3,own,NA,rich,1424,12,furniture/equipment
 449,61,male,2,own,rich,moderate,1512,15,repairs
-450,30,male,3,own,NA,NA,11054,36,car
+450,30,NA,3,own,NA,NA,11054,36,car
 451,29,female,2,own,little,NA,518,6,radio/TV
 452,34,male,2,own,little,NA,2759,12,furniture/equipment
 453,35,male,3,own,little,NA,2670,24,car
@@ -488,7 +488,7 @@
 486,52,male,2,own,little,NA,3077,12,radio/TV
 487,62,female,2,free,little,NA,3757,24,car
 488,35,male,1,rent,moderate,NA,1418,10,car
-489,26,male,2,rent,little,NA,3518,6,car
+489,26,NA,2,rent,little,NA,3518,6,car
 490,26,male,2,own,little,NA,1934,12,radio/TV
 491,42,female,3,free,little,moderate,8318,27,business
 492,27,female,2,own,moderate,NA,1237,6,radio/TV
@@ -533,7 +533,7 @@
 531,28,female,2,rent,moderate,moderate,2631,15,car
 532,41,male,2,rent,little,NA,1503,12,car
 533,26,male,2,own,moderate,NA,1311,24,radio/TV
-534,25,male,2,own,NA,NA,3105,24,radio/TV
+534,25,NA,2,own,NA,NA,3105,24,radio/TV
 535,33,male,2,rent,little,rich,2319,21,education
 536,75,female,3,own,NA,little,1374,6,car
 537,37,female,2,own,little,moderate,3612,18,furniture/equipment
@@ -603,7 +603,7 @@
 601,30,female,2,own,little,moderate,918,9,furniture/equipment
 602,34,female,1,free,little,moderate,1837,24,education
 603,28,female,3,own,little,NA,3349,36,furniture/equipment
-604,23,female,2,own,little,rich,1275,10,furniture/equipment
+604,23,NA,2,own,little,rich,1275,10,furniture/equipment
 605,22,male,2,own,quite rich,little,2828,24,furniture/equipment
 606,74,male,3,own,little,NA,4526,24,business
 607,50,female,2,free,moderate,moderate,2671,36,radio/TV
@@ -648,7 +648,7 @@
 646,32,male,2,own,little,little,4583,30,furniture/equipment
 647,26,female,2,own,quite rich,NA,1386,12,car
 648,38,male,2,free,little,rich,947,24,car
-649,40,male,1,rent,little,little,684,12,education
+649,40,NA,1,rent,little,little,684,12,education
 650,50,male,3,free,little,little,7476,48,education
 651,37,male,1,own,little,moderate,1922,12,furniture/equipment
 652,45,male,2,own,little,little,2303,24,car
@@ -687,7 +687,7 @@
 685,34,male,2,free,NA,NA,6527,60,car
 686,27,male,2,own,NA,rich,1347,10,radio/TV
 687,30,male,2,free,moderate,moderate,2862,36,car
-688,35,male,2,own,moderate,NA,2753,9,radio/TV
+688,35,NA,2,own,moderate,NA,2753,9,radio/TV
 689,31,male,2,own,rich,little,3651,12,car
 690,25,male,2,own,little,little,975,15,furniture/equipment
 691,25,female,1,own,moderate,moderate,2631,15,repairs
@@ -732,7 +732,7 @@
 730,33,male,2,own,little,moderate,6403,24,radio/TV
 731,21,male,1,rent,little,little,1987,24,radio/TV
 732,44,female,1,own,little,moderate,760,8,radio/TV
-733,28,female,2,rent,rich,NA,2603,24,car
+733,28,NA,2,rent,rich,NA,2603,24,car
 734,37,female,2,own,little,NA,3380,4,car
 735,29,female,0,own,NA,moderate,3990,36,domestic appliances
 736,23,female,3,rent,little,moderate,11560,24,car
@@ -761,7 +761,7 @@
 759,35,male,2,own,little,little,691,12,car
 760,59,female,2,own,NA,NA,5045,15,car
 761,24,female,2,rent,little,little,2124,18,furniture/equipment
-762,24,male,1,own,little,little,2214,12,radio/TV
+762,24,NA,1,own,little,little,2214,12,radio/TV
 763,30,male,3,free,NA,NA,12680,21,car
 764,27,male,2,own,moderate,NA,2463,24,car
 765,40,male,1,own,little,moderate,1155,12,radio/TV
@@ -880,7 +880,7 @@
 878,27,male,3,free,little,little,1422,9,car
 879,36,male,2,own,NA,NA,6742,30,radio/TV
 880,38,male,3,own,little,NA,7814,24,car
-881,48,male,2,free,NA,NA,9277,24,car
+881,48,NA,2,free,NA,NA,9277,24,car
 882,36,male,2,own,NA,moderate,2181,30,car
 883,65,female,0,own,little,NA,1098,18,radio/TV
 884,43,male,2,own,little,moderate,4057,24,furniture/equipment
@@ -989,7 +989,7 @@
 987,64,female,2,own,moderate,NA,1409,13,radio/TV
 988,29,male,3,free,little,little,6579,24,car
 989,48,male,1,own,little,moderate,1743,24,radio/TV
-990,37,male,1,own,NA,NA,3565,12,education
+990,37,NA,1,own,NA,NA,3565,12,education
 991,34,male,1,own,moderate,NA,1569,15,radio/TV
 992,23,male,1,rent,NA,little,1936,18,radio/TV
 993,30,male,3,own,little,little,3959,36,furniture/equipment

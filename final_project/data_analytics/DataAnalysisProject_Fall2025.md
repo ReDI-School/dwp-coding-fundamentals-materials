@@ -31,7 +31,7 @@ The dataset contains 1000 entries. In this dataset, each entry represents a pers
 **Attributes:**
 
 - 1.  Age (numeric)
-    2.  Sex (text: male, female)
+    2.  Gender (text: male, female)
     3.  Job (numeric: 0 - unskilled and non-resident, 1 - unskilled and resident, 2 - skilled, 3 - highly skilled)
     4.  Housing (text: own, rent, or free)
     5.  Saving account (text - little, moderate, quite rich, rich)
@@ -74,7 +74,7 @@ This comprehensive real estate dataset contains over 5,000 property listings fro
     4.  What was the most common purpose overall for credit given?
 2.  Print out your results
 3.  Using the **matplotlib** module to visualize results, try to visualize the quantity of each Purpose in a bar chart.
-4.  Try the same chart again but separating by Sex. One for Female and other for male. Is there a difference?
+4.  Try the same chart again but separating by Gender. One for Female and other for male. Is there a difference?
 5.  Give your insights of your findings of the data. How the missing data impact your analysis?
 
   
