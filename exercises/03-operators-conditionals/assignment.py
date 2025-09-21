@@ -1,19 +1,4 @@
-# 1. Interacting with a user
-# Using the built in input() function write a Python program that requests
-# input from a user, it should request that the user enters their name.
-
-# Example of expected output:
-# ---------------------------
-# Please enter your name: Robin.
-# Welcome Robin.
-# ---------------------------
-
-# Write your code below this line
-
-name = input("Please enter your name:")
-print("Welcome", name)
-
-# 2. Modulus and Exponentiation
+# 1 Modulus and Exponentiation
 # Write a Python program that takes a number from the user and prints:
 # 1. The remainder when divided by 3 (using the modulus operator %)
 # 2. The number raised to the power of 2 (using the exponentiation operator **)
@@ -32,7 +17,7 @@ value = input("Please enter a number:")
 print("Remainder when divided by 3:", int(value) % 3)
 print("Number raised to the power of 2:", int(value) ** 2 )
 
-# 3. Odd or Even
+# 2. Odd or Even
 # Write a Python program that asks the user to enter a number and checks if the
 # number is odd or even.
 # Note: Use the modulus operator and an if statement.
@@ -51,7 +36,7 @@ if (int(value) % 2) == 0:
 else:
   print("the number is odd")
 
-# 4. Compare Two Numbers
+# 3. Compare Two Numbers
 # Write a Python program that takes two numbers as input and prints whether:
 # - The first number is greater than the second
 # - The second number is greater than the first
@@ -73,7 +58,32 @@ if int(first_value) > int(second_value):
 else:
   print("The second number is greater than the first")
 
-# 6. Multiplication Table
+# 4. Print Numbers 1 to 10
+# Write a Python program that uses a while loop to print the numbers from
+# 1 to 10.
+
+# Example of expected output:
+# ---------------------------
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
+# ---------------------------
+
+# Write your code below this line
+
+value = 1
+while value <= 10:
+  print(value)
+  value += 1
+
+# 5. Multiplication Table
 # Write a Python program that takes a number from the user and prints the multiplication table (from 1 to 10) for that number.
 
 # Example Output:
